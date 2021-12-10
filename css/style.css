@@ -39,7 +39,7 @@ a.skip:focus{
 }
 
 a{
-    color: #f81d66;
+    color: #770bc0;
 }
   
 *:focus{
@@ -64,7 +64,7 @@ nav{
 .nav_links .on_page{
     text-decoration: none;
     background-color: #cefdff;
-    color: #770bc0;
+    color: black;
 }
 
 .nav_links{
