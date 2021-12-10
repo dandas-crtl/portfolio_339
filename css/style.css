@@ -37,6 +37,10 @@ a.skip:focus{
     color: black;
     text-decoration-style: solid;
 }
+
+a{
+    color: #f81d66;
+}
   
 *:focus{
     border: 2px solid black;
@@ -60,7 +64,7 @@ nav{
 .nav_links .on_page{
     text-decoration: none;
     background-color: #cefdff;
-    color: #c287e8;
+    color: #770bc0;
 }
 
 .nav_links{
@@ -84,7 +88,7 @@ nav{
 .home h1{
     font-size: 32px;
     text-align: center;
-    color: #c287e8;
+    color: #770bc0;
     padding: 25px;
 }
 
@@ -102,11 +106,10 @@ nav{
 .aboutme h1{
     padding: 10px;
     font-size: 28px;
-    color: #c287e8;
+    color: #770bc0;
     text-align: center;
 }
-
-
+ 
 
 /* flip card for home page*/
 .flip-container{
@@ -115,7 +118,7 @@ nav{
     height: 250px;
     display: block;
     margin: auto;
-    background-color: #c287e8;
+    background-color: #770bc0;
 }
 
 .flip-card{
@@ -157,7 +160,7 @@ nav{
 .flip-card-back h2{
     font-size: 20px;
     padding: 10px;
-    color: #444140;
+    color:#06f5fd;
 }
 
 .flip-card-back p{
@@ -169,7 +172,7 @@ nav{
 
 .gallery h1{
     font-size: 32px;
-    color: #c287e8;
+    color: #770bc0;
     text-align: center;
     padding: 25px;
 }
@@ -183,14 +186,14 @@ nav{
 
 .menu_text h1{
     font-size: 32px;
-    color: #c287e8;
+    color: #770bc0;
     text-align: center;
     padding: 25px;
 }
 
 .group h2{
     text-align: center;
-    text-decoration: wavy underline #c287e8;
+    text-decoration: wavy underline #770bc0;
     padding: 10px;
 }
 
@@ -214,7 +217,7 @@ nav{
 /* order form */
 .order h1{
     font-size: 32px;
-    color: #c287e8;
+    color: #770bc0;
     text-align: center;
     padding: 25px;
 }
@@ -309,7 +312,7 @@ footer p{
     .container img{
         height: 350px;
         width: 350px;
-        border: 3px solid #c287e8;
+        border: 3px solid #770bc0;
         margin: 10px;
         padding: 10px;
         justify-items: center;
@@ -327,7 +330,7 @@ footer p{
     .about img{
         height: 300px;
         width: 300px;
-        border: 3px solid #c287e8;
+        border: 3px solid #770bc0;
         padding: 10px;
         animation-name: expand;
         animation-duration: 3s;
@@ -362,7 +365,7 @@ footer p{
     .container_menu img{
         height: 300px;
         width: 300px;
-        border: 3px solid #c287e8;
+        border: 3px solid #770bc0;
         padding: 10px;
         animation-name: expand;
         animation-duration: 3s;
@@ -415,7 +418,7 @@ footer p{
     .about img{
         height: 300px;
         width: 300px;
-        border: 3px solid #c287e8;
+        border: 3px solid #770bc0;
         padding: 10px;
         animation-name: expand;
         animation-duration: 3s;
