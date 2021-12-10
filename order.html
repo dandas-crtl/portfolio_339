@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="imgs/favicon-32x32.png">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+	<title>Order Form</title>
+</head>
+<body>
+    <header class = "noParallax">
+        <a class = "skip" href = "#main">Skip to Form</a>
+
+        <img src="imgs/title.png" alt="Anjani's Bakery Title" id="logo">
+
+		<nav role="navigation">
+			<ul class="nav_links">
+				<li class="nav_item"><a href = "index.html">HOME</a></li>
+				<li class="nav_item"><a href = "menu.html">MENU</a></li>
+				<li class="nav_item"><a href = "gallery.html">GALLERY</a></li>
+				<li class="nav_item"><a href = "order.html" class = "on_page">ORDER</a></li>
+            </ul>
+		</nav>
+	</header>
+	
+    <main class="order">
+            <h1>Order Here</h1>
+
+            <div class="order_form" id="main">
+                <form action="https://formspree.io/f/xayvyenv" method="POST">
+                    <fieldset>
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Enter Your Name" id="name" name="name" required>
+
+                        <label for="order">What would you like to order?</label>
+                        <input type="text" placeholder="Specify number of orders or cake size." id="order" name="order" required>
+
+                        <label for="notes">Any specified notes we should know?</label>
+                        <input type="text" placeholder="Please note any allergies/preferences if applicable." id="notes" name="notes">
+
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Enter Your Email" id="email" name="email" required>
+                    
+                        <button type="submit">Send</button>
+                    </fieldset>
+                </form>
+            </div>
+    </main>
+
+    <footer role = "contentinfo">
+        <p>University of Michigan School of Information
+			<br>
+			Sarayu Dandamudi &copy; 2021
+		</p>
+    </footer>
+</body>
+</html>
